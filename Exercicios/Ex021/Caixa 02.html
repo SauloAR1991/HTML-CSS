@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 2px 10px 30px 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 10px 5px 10px 5px;
+            text-align: center;
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.482);
+            border-radius: 50px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            background-color: rgb(172, 172, 172);
+            font-weight: 400;
+            margin-right: 2px;
+            padding: 5px 50px 5px 50px;
+        }
+
+        nav>a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        main {
+            background-color: white;
+            padding: 15px 10px 15px 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        section {
+            background-color: rgb(229, 229, 229);
+            padding: 10px;
+        }
+
+        #circulo {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 100px;
+            margin-bottom: 20px;
+            box-shadow: inset 0px 0px 18px #0000006d;
+        }
+
+        #d1 {
+            width: auto;
+            height: 200px;
+            background-color: rgba(0, 0, 255, 0);
+        }
+
+        #s1 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #assuntos>p {
+            font-size: 15px;
+        }
+
+        article>aside {
+            background-color: lightgray;
+        }
+
+        #noticias>h1 {
+            background-color: rgb(167, 167, 167);
+            padding: 10px;
+            margin: 0px;
+        }
+
+        #noticias>p {
+            background-color: rgb(167, 167, 167);
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin: 0px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> &lt;/Meu Site &gt;</h1>
+        <Nav>
+            <a href="">Site1</a>
+            <a href="">Site2</a>
+            <a href="">Site3</a>
+            <a href="">Site4</a>
+            <a href="">Site5</a>
+        </Nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <div id="d1">
+                <div id="circulo">
+
+                </div>
+                <span id="s1">
+                    Colunista: Saulo Andrade
+                </span>
+            </div>
+        </section>
+        <section id="noticias">
+            <h1>Notícias sobre o Brasil</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, minima possimus debitis maxime modi,
+                reprehenderit ducimus voluptatum suscipit error odit iure beatae provident perferendis vitae dolorem
+                corporis eum veritatis ad.</p>
+            <aside>
+                <p>Artigo escrito por: Saulo Andrade</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

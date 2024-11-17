@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+
+    <style>
+        div:hover {
+            box-shadow: 3px 3px 3px black;
+            background-color: cadetblue;
+        }
+        div{
+            display: inline-block;
+            font-size: 45px;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+        }
+        div > span{
+            display: none;
+        }
+        div:hover > span{
+            display: inline-block;
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <div>
+        <span>cala a boca</span>
+        sasas
+    </div>
+    
+</body>
+</html>

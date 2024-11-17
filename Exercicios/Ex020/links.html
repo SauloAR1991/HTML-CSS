@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        a{
+            color: brown;
+            text-decoration: none;
+            font: 100 25px  Arial, comic;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:active{
+            color: red;
+        }
+        a:hover{
+
+            text-decoration: underline;
+        }
+
+        a::before{
+            content:'\00266B   ';
+            color: black;
+            font: 100 25px Arial, 'sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudos-Elementos</h1>
+    <ul>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Equipamentos</a></li>
+        <li><a href="">Loja</a></li>
+        <li><a href="">Sobre</a></li>
+    </ul>
+</body>
+</html>

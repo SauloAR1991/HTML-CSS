@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+    <link rel="shortcut icon" href="Icones/Html ico.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir essa imagem em varios dispositivos de tamanhos diferentes ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Foto-M.png" type="image/png">
+        <img src="Imagens/Foto-P.png" alt="Esta é uma imagem para celulares">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Aprendendo a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="media/After.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não é compative. Baixe o arquivo de audio nesse link: <a href="media/After.mp3" download="media/After.mp3">After</a></p>
+        
+    </audio>
+
+    <p>Esse é um audio do soundcloud</p>
+    <iframe width="35%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1899576531&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sauloa_r" title="Saulo A.R" target="_blank" style="color: #cccccc; text-decoration: none;">Saulo A.R</a> · <a href="https://soundcloud.com/sauloa_r/after" title="After" target="_blank" style="color: #cccccc; text-decoration: none;">After</a></div>
+    <br>
+</body>
+</html>
