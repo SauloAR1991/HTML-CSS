@@ -57,7 +57,6 @@ aside>p {
 }
 
 #part1 {
-    /*background-image: url("/Desafios/Cordel_moderno/imagens/background001.jpg");*/
     background-color: rgb(255, 255, 255);
     background-position: right top;
     max-height: 100px;
@@ -71,7 +70,7 @@ aside>p {
 }
 
 #part2 {
-    background-image: url("/Desafios/Cordel_moderno/imagens/background001.jpg");
+    background-image: url("/Desafios/Cordel/imagens/background001.jpg");
     /*background-color: blue;*/
     background-position: right center;
     max-height: 100px;
@@ -85,7 +84,6 @@ aside>p {
 }
 
 #part3 {
-    /*background-image: url("/Desafios/Cordel_moderno/imagens/background001.jpg");*/
     background-color: rgb(255, 255, 255);
     max-height: 100px;
     min-height: 1200px;
@@ -99,7 +97,7 @@ aside>p {
 }
 
 #part4 {
-    background-image: url("/Desafios/Cordel_moderno/imagens/background002.jpg");
+    background-image: url("/Desafios/Cordel/imagens/background002.jpg");
     /*background-color: blue;*/
     background-position: right center;
     max-height: 100px;
@@ -114,7 +112,6 @@ aside>p {
 }
 
 #part5 {
-    /*background-image: url("/Desafios/Cordel_moderno/imagens/background001.jpg");*/
     background-color: rgb(255, 255, 255);
     max-height: 100px;
     min-height: 1350px;
@@ -168,7 +165,7 @@ aside>p {
     color: rgb(254, 202, 15);
     background-color: rgba(0, 0, 0, 0.488);
     outline-style: dotted;
-    outline-color: rgb(196, 196, 196);
+    outline-color: rgb(80, 80, 80);
 }
 
 #text5 {
