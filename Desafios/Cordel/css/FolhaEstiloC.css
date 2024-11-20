@@ -70,7 +70,7 @@ aside>p {
 }
 
 #part2 {
-    background-image: url("/Desafios/Cordel/imagens/background001.jpg");
+    background-image: url("../imagens/background001.jpg");
     /*background-color: blue;*/
     background-position: right center;
     max-height: 100px;
@@ -97,7 +97,7 @@ aside>p {
 }
 
 #part4 {
-    background-image: url("/Desafios/Cordel/imagens/background002.jpg");
+    background-image: url("../imagens/background002.jpg");
     /*background-color: blue;*/
     background-position: right center;
     max-height: 100px;
